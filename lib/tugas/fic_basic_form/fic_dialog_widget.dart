@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class DialogWiget extends StatefulWidget {
-  const DialogWiget({Key? key}) : super(key: key);
+class FICDialogWiget extends StatefulWidget {
+  const FICDialogWiget({Key? key}) : super(key: key);
 
   @override
-  State<DialogWiget> createState() => _DialogWigetState();
+  State<FICDialogWiget> createState() => _DialogWigetState();
 }
 
-class _DialogWigetState extends State<DialogWiget> {
+class _DialogWigetState extends State<FICDialogWiget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

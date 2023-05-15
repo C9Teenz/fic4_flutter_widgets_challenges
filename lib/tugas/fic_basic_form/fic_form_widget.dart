@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class FormWidget extends StatefulWidget {
-  FormWidget({Key? key}) : super(key: key);
+class FICFormWidget extends StatefulWidget {
+  const FICFormWidget({Key? key}) : super(key: key);
 
   @override
-  State<FormWidget> createState() => _FormWidgetState();
+  State<FICFormWidget> createState() => _FormWidgetState();
 }
 
-class _FormWidgetState extends State<FormWidget> {
+class _FormWidgetState extends State<FICFormWidget> {
   bool isOn = false;
 
   var selected = 'Flutter';
